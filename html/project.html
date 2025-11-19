@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PGDM</title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Offer Header -->
+    <div class="offer">
+        Pay Now & Get Instant 50% Off on Application Fee - Hurry Up! Limited Time Offer
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-container">
+        <img src="images/logo.png" alt="Logo" />
+        <ul>
+            <li><a href="#">About GNIM</a></li>
+            <li><a href="#">Program Details</a></li>
+            <li><a href="#">Admission Process</a></li>
+            <li><a href="tel:56487637947328">Toll free: 5648763 7947328</a></li>
+
+        </ul>
+    </div>
+    <!-- Image Slider -->
+    <div class="slider-container">
+        <div class="slides" id="slideTrack">
+            <img src="images/slider1.jpeg" alt="Banner 1" />
+            <img src="images/slider2.jpeg" alt="Banner 2" />
+            <img src="images/slider3.jpeg" alt="Banner 3" />
+        </div>
+        <!-- Form -->
+        <form action="#" method="post" class="form">
+            <h2>Get Free Counselling</h2>
+            <input type="text" placeholder="Enter your name" id="name" required /><br />
+            <input type="email" placeholder="Enter your email" id="email" required /><br />
+            <input type="text" placeholder="Enter your phone number" id="phone" required /><br />
+            <input type="text" placeholder="Enter your city" id="city" required /><br />
+            <input type="text" placeholder="Enter your state" id="state" required /><br />
+            <input type="submit" value="Submit" />
+        </form>
+        <div class="slider-buttons">
+            <button onclick="prevSlide()">&#8592;</button>
+            <button onclick="nextSlide()">&#8594;</button>
+        </div>
+    </div>
+    <!-- About + Form -->
+    <div class="main-container">
+        <section>
+            <div class="intro">
+                <h3 class="about">About GNIM</h3>
+                <h1>Top Business School in Greater Noida, Delhi-NCR</h1>
+                <p>
+                    GNIM boasts a prestigious two-decade legacy of delivering top-notch education across many
+                    disciplines. As
+                    trailblazers in world-class education, we carry a rich tradition of providing exceptional
+                    facilities,
+                    employing the finest teaching and learning methodologies, and offering state-of-the-art resources.
+                </p>
+                <p>
+                    Our institution has cultivated an outstanding alumni network comprising accomplished leaders in
+                    various
+                    professional domains. Situated in Greater Noida, we stand as one of the largest educational groups
+                    in the
+                    region, attracting a diverse student body from across the country.
+                </p>
+                <h5>Our Vision</h5>
+                <p>
+                    We strive to be a leading institution of professional education that empowers students to become
+                    trustworthy
+                    global citizens and leaders in their chosen fields through an innovative, interdisciplinary, and
+                    inclusive
+                    approach to learning, emphasizing learning-centered teaching.
+                </p>
+            </div>
+            <div class="font">
+                <div>
+                    <nav>25</nav><br />acres Campus
+                </div>
+                <div>
+                    <nav>5000+</nav><br />Students
+                </div>
+                <div>
+                    <nav>50</nav><br />LPA
+                </div>
+                <div>
+                    <nav>20000+</nav><br />Alumni Network
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- Slider Script -->
+    <script>
+        let currentIndex = 0;
+        const totalSlides = 3;
+
+        function showSlide(index) {
+            const track = document.getElementById("slideTrack");
+            track.style.transform = translateX(-$index * 10);
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            showSlide(currentIndex);
+        }
+
+        setInterval(() => {
+            nextSlide();
+        }, 5000);
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navContainer = document.querySelector('.nav-container');
+            const navList = navContainer.querySelector('ul');
+
+            // Create toggle button
+            const toggleBtn = document.createElement('button');
+            toggleBtn.className = 'nav-toggle';
+            toggleBtn.innerHTML = '&#9776;'; // Hamburger icon
+            navContainer.insertBefore(toggleBtn, navList);
+
+            // Toggle navigation on button click
+            toggleBtn.addEventListener('click', function () {
+                navList.classList.toggle('show-nav');
+            });
+        });
+    </script>
+</body>
+
+</html>

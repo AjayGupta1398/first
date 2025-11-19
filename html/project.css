@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  .offer {
+    background-color: #d9b831;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .slider-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .slider-buttons button {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  ul{
+    
+    font-size: large;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 41px;
+    width: 100%;
+  }
+
+  
+
+  .pad {
+    padding: 10px 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  section {
+    /* padding: 20px; */
+    display: flex;
+  }
+
+  .about {
+    color: #0277bd;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+
+  p {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .font {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .font div {
+    background-color: #eee;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 120px;
+  }
+
+  .font nav {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .form {
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    top: 41px;
+    right: 0;
+    left: auto;
+    margin: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .form input[type="submit"] {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .form-container {
+    border: 2px solid black;
+  }
+  .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      margin-right: 1rem;
+  }
+  @media (min-width: 768px) {
+    .main-container {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    section {
+      max-width: 600px;
+    }
+  }
+  @media (max-width: 768px) {
+      .nav-container ul {
+          display: none;
+          flex-direction: column;
+          background: #fff;
+          top: 40px;
+          right: 0;
+          width: 200px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+          padding: 1rem 0;
+          z-index: 100;
+      }
+      .nav-container ul.show-nav {
+          display: flex;
+      }
+      .nav-toggle {
+          display: block;
+      }
+      .nav-container {
+          position: static;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+  }
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#banner{
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+header div{
+  background-color: #d9b831;
+  padding: 10px;
+  text-align: center;
+}
+.container{
+  
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  position: relative;
+  top: -650px;
+}
+.padd{
+  padding: 20px;
+  margin: 30px;
+}
+.content{
+  display: flex;
+}
+.form{
+  background-color: #d9b831;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 300px;
+  height: 400px;
+  margin-left: auto;
+  top: auto;
+} */

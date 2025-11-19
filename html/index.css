@@ -1,0 +1,111 @@
+#aj{
+
+    background-color: rgb(19, 19, 18);
+    height: 100px;
+    width: 1600px;
+    margin:right 20px;
+}
+*{
+    font-family:'Times New Roman';
+}
+p{
+    text-align: center;
+    
+}
+#outer{
+    font-size: 25px;
+}
+#iner{
+    font-size: 15px;
+}
+#an{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(32, 35, 35);
+    border: solid;
+    border-style:dashed;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px,10px,10px,10px;
+    
+}
+#ap{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(45, 46, 46);
+    border: solid;
+    border-style:dashed;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px,10px,10px,10px;
+     margin: 50px;
+}
+#py{
+    height: 80px;
+    width:100px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(255, 0, 0);
+}
+#pl{
+    height: 80px;
+    width:100px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(96, 102, 95);
+}
+#pa{
+    height: 80px;
+    width:100px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(17, 17, 17);
+}
+#ch{
+    border-style: solid;
+    width: 100px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(218, 211, 228);
+}
+#nevbar{
+    background-color: rgb(87, 87, 82);
+    height: 90px;
+    margin:right 50px;
+    color: black;
+
+    
+
+}
+#j{
+    color: aquamarine;
+}
+#a{
+    background-color: rgb(83, 80, 80);
+}
+#logo{
+    color: rgb(199, 57, 5);
+
+}
+#logo{
+    margin-right: 200px;
+}
+#account{
+    margin-right: 200px;
+}
+#My{
+    margin-right: 200px;
+}
+#Contact{
+    margin-right: 200px;
+}
+#caaa{
+    background-color: yellowgreen;
+}

@@ -1,0 +1,117 @@
+body{
+    background-color:white
+
+}
+#nevbar{
+    color: black;
+    text-align: center;
+   
+    height: 100px;
+}
+form{
+    text-align: center;
+    height:120;
+    background-color: darkslategray;
+  
+    
+}
+h3{
+    text-align: center;
+}
+#ver2{
+    margin-left: 25px;
+    text-align: center;
+    height: 200px;
+    width: 1400px;
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+
+}
+a{
+    color:white;
+    margin-left: 40px;
+    text-decoration: none;
+}
+#pya{
+    background-color: rgb(47, 47, 47);
+    text-align: center;
+}
+#div{
+    width: 20px;
+    height: 300px;
+    color: rgb(244, 240, 240);
+    padding: 25px;
+    margin: 25px;
+    background-color: darkslateblue;
+    display: inline;
+
+
+}
+#ap{
+    padding: 25px;
+    margin-left:150px;
+    height: 150px;
+    width: 100px;
+    border-style: solid;
+    border-radius:2px;
+    background-color: rgb(229, 232, 232);
+    color: rgb(31, 32, 32);
+    display: inline-block;
+    text-align:center;
+     background-image: url(backg.avif);
+    background-size: cover;
+    background-size:contain;
+}
+#aj{
+    height: 150px;
+    width: 100px;
+    padding: 25px;
+    margin-left:150px;
+border-style: solid;
+    border-radius: px;
+    background-color: rgb(228, 233, 233);
+    color: rgb(26, 26, 26);
+    display: inline-block;
+    text-align: center;
+     background-image: url(backg.avif);
+    background-size: cover;
+    background-size:contain;
+
+}
+#ay{
+    position: relative;
+    top: 20px;
+    padding: 25px;
+    margin-left: 150px;
+    height: 150px;
+    width: 100px;
+    border-style: solid;
+    border-radius: px;
+    background-color: rgb(229, 233, 233);
+    color: rgb(31, 32, 32);
+    display: inline-block;
+     background-image: url(backg.avif);
+    background-size: cover;
+    background-size:contain;
+}
+#pa{
+    background-image: url(backg.avif);
+    background-size: cover;
+    background-size:contain;
+    position: relative;
+    top: 20px;
+    height: 150px;
+    width: 100px;
+    padding: 25px;
+    margin-left:150px;
+    border-style: solid;
+    border-radius: px;
+    background-color: rgb(228, 232, 232);
+    color: rgb(19, 19, 19);
+    display: inline-block;
+}
+body{
+    background-image: url("backg.avif");
+
+}

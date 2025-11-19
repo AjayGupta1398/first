@@ -1,0 +1,85 @@
+body{
+background-color: darkolivegreen;
+}
+p{
+text-transform: capitalize;    
+}
+h1{
+text-align: center;
+}
+#outer{
+    font-size: 40px;
+}
+#ineer{
+    font-size: 25px;
+}
+#a{
+   height: 200px; 
+  /* background-color: rgb(145, 78, 78);*/
+}
+#border{
+    border-style:solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: burlywood;
+    padding: 40px;
+}
+#j{
+    border-style: solid;
+    width: 150px;
+    height: 300px;
+}
+#y{ 
+    margin-left: 25px;
+    width: 50px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: solid;
+    padding-left: 25px;
+    background-color:yellow;
+}
+#k{
+     margin-left: 25px;
+    width: 50px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: solid;
+    padding-left: 25px;
+    background-color:red;
+}
+#u{
+    
+    width: 50px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: solid;
+    padding-left: 25px;
+    margin-left: 25px;
+    background-color:green;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#nevbar{
+    height: 100px;
+    width: 1550px;
+    background-color: black;
+    margin-right: 200px;
+}
+#logo{
+    color: rgb(243, 133, 8);
+    margin-right: 200px;
+}
+a{
+    color: white(186, 69, 69); 
+    margin-right: 200px;
+}
+button{
+    color: blueviolet;
+    background-color: rgb(197, 116, 23);;
+}
